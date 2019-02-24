@@ -95,7 +95,7 @@ public class ProfileActivity extends AppCompatActivity {
             }
         });
 
-        web.loadUrl("https://flamingo-b117f.firebaseapp.com");
+        web.loadUrl("");
         web.getSettings().setJavaScriptEnabled(true);
         web.setWebViewClient(new WebViewClient());
 
