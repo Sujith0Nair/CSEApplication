@@ -48,7 +48,7 @@ public class LoginActivity extends AppCompatActivity implements GestureDetector.
     }
 
     private void validate(String uname, String upass){
-        if((uname.equals("Admin")) && (upass.equals("0308"))){
+        if((uname.equals("")) && (upass.equals(""))){
             Intent i= new Intent(LoginActivity.this, AdminActivity.class);
             i.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(i);
