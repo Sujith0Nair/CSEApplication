@@ -41,7 +41,7 @@ public class HomeActivity extends AppCompatActivity {
         bt= findViewById(R.id.fab2);
 
         wb = findViewById(R.id.web);
-        wb.loadUrl("https://prathmesh3235.github.io/homepage/");
+        wb.loadUrl("");
         wb.getSettings().setJavaScriptEnabled(true);
         wb.setWebViewClient(new WebViewClient());
 
