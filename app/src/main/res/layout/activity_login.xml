@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginActivity"
+    android:background="@drawable/login_gradient"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center_horizontal"
+                android:padding="16dp"
+                android:layout_marginTop="48dp"
+                android:layout_marginBottom="20dp"
+                android:src="@drawable/sumne"
+                android:id="@+id/imageinnov"/>
+
+            <EditText
+                android:id="@+id/username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/icon_username"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Username"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textColorHint="#fff" />
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"/>
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@android:color/transparent"
+                android:drawableLeft="@drawable/icon_password"
+                android:drawablePadding="12dp"
+                android:ems="10"
+                android:hint="Password"
+                android:maxLines="1"
+                android:padding="8dp"
+                android:textColorHint="#fff"
+                android:inputType="textPassword" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#f9d7db"/>
+
+            <Button
+                android:id="@+id/btlogin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/login_button"
+                android:padding="16dp"
+                android:text="LOGIN"
+                android:textColor="#f16f7d" />
+
+            <TextView
+                android:id="@+id/info"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="100dp"
+                android:layout_marginTop="40dp"
+                android:text="Attempts Remaining: "
+                android:textColor="#fff" />
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>
